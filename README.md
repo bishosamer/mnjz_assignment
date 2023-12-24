@@ -1,16 +1,13 @@
 # mnjz_assignment
+Don't forget to run ```dart run build_runner build``` before building
+# packages used
+hive for offline storage
 
-A new Flutter project.
+mockito for testing 
 
-## Getting Started
+bloc for state management
 
-This project is a starting point for a Flutter application.
+cached_network_image for caching images
 
-A few resources to get you started if this is your first Flutter project:
+# not compatable with flutter web
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
