@@ -1,8 +1,13 @@
 # mnjz_assignment
 Don't forget to run ```dart run build_runner build``` before building
+# packages used
+hive for offline storage
 
-#not compatable with flutter web
+mockito for testing 
 
-used hive for offline storage
-used mockito for testing 
-used bloc for state management
+bloc for state management
+
+cached_network_image for caching images
+
+# not compatable with flutter web
+
