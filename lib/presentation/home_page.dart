@@ -9,6 +9,9 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Random Products'),
+      ),
       body: BlocConsumer<ProductBloc, ProductState>(
         builder: (context, state) {
           if (state is ProductInitial) {
